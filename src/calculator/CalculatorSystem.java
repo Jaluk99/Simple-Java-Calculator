@@ -29,19 +29,21 @@ public class CalculatorSystem {
 
     public void delta() {
         double delta;
+        double wynik1;
+        double b2;
 
-        Math.pow(b1, 2);
-        delta = b1 - 4 * a1 * c1;
-        wynik = ((int) Math.sqrt(delta));
+        b2 = Math.pow(b1, 2);
+        delta = b2 - 4 * a1 * c1;
+        wynik1 = (Math.sqrt(delta));
 
-        if(wynik == 0) {
+        if(wynik1 == 0) {
             setX0((-b1 / (2 * a1)));
             msgDelta(1);
-        } else if(wynik > 0) {
-            setX1((-b1 + wynik) / (2 * a1));
-            setX2((-b1 - wynik) / (2 * a1));
+        } else if(wynik1 > 0) {
+            setX1((-b1 + wynik1) / (2 * a1));
+            setX2((-b1 - wynik1) / (2 * a1));
             msgDelta(2);
-        } else if(wynik < 0) {
+        } else if(wynik1 < 0) {
             msgDelta(3);
         } else {
             System.out.println("Wystapil blad!");

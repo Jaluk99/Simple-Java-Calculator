@@ -8,9 +8,9 @@ public class Main {
         system.setB(8);
 
         //Parametry dla delty
-        system.setA1(-5);
-        system.setB1(27);
-        system.setC1(4);
+        system.setA1(1);
+        system.setB1(-3);
+        system.setC1(-4);
 
         //Ustaw typ (mnozenie, dodawania, odejmowanie, dzielnie, delta)
         system.setTyp("delta");
