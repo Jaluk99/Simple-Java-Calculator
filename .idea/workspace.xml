@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="909d8ccb-044a-4500-b651-3bd0e5935f83" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/calculator/Delta.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/calculator/CalculatorSystem.java" afterPath="$PROJECT_DIR$/src/calculator/CalculatorSystem.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/calculator/Main.java" afterPath="$PROJECT_DIR$/src/calculator/Main.java" />
@@ -19,8 +20,18 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/calculator/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+            <state relative-caret-position="153">
+              <caret line="9" column="32" lean-forward="false" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Delta.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/calculator/Delta.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -29,11 +40,11 @@
       <file leaf-file-name="CalculatorSystem.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/calculator/CalculatorSystem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="22" column="98" lean-forward="true" selection-start-line="22" selection-start-column="98" selection-end-line="22" selection-end-column="98" />
+            <state relative-caret-position="433">
+              <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
               <folding>
-                <element signature="e#242#243#0" expanded="true" />
-                <element signature="e#309#310#0" expanded="true" />
+                <element signature="e#180#181#0" expanded="true" />
+                <element signature="e#247#248#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -63,6 +74,7 @@
         <option value="$PROJECT_DIR$/src/System.java" />
         <option value="$PROJECT_DIR$/src/calculator/System.java" />
         <option value="$PROJECT_DIR$/src/calculator/CalculatorType.java" />
+        <option value="$PROJECT_DIR$/src/calculator/Delta.java" />
         <option value="$PROJECT_DIR$/src/calculator/CalculatorSystem.java" />
         <option value="$PROJECT_DIR$/src/calculator/Main.java" />
       </list>
@@ -298,21 +310,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/calculator/Delta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/calculator/CalculatorSystem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="22" column="98" lean-forward="true" selection-start-line="22" selection-start-column="98" selection-end-line="22" selection-end-column="98" />
+        <state relative-caret-position="433">
+          <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
           <folding>
-            <element signature="e#242#243#0" expanded="true" />
-            <element signature="e#309#310#0" expanded="true" />
+            <element signature="e#180#181#0" expanded="true" />
+            <element signature="e#247#248#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/calculator/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        <state relative-caret-position="153">
+          <caret line="9" column="32" lean-forward="false" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
           <folding />
         </state>
       </provider>

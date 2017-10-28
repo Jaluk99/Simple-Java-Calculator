@@ -7,15 +7,9 @@ public class Main {
         system.setA(-10);
         system.setB(8);
 
-        //Parametry dla delty
-        system.setA1(1);
-        system.setB1(2);
-        system.setC1(1);
-
-        //Ustaw typ (mnozenie, dodawania, odejmowanie, dzielnie, delta)
-        system.setTyp("delta");
-
-        //Metoda licząca
+        system.setTyp("dodawanie");
         system.type();
+
+        Delta.delta(1, -3, -4);
     }
 }
