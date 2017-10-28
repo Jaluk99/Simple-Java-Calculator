@@ -17,10 +17,10 @@ public class CalculatorSystem {
     public void msgDelta(int i) {
         switch (i) {
             case 1:
-                System.out.println("Wynik " + typ + " to x0: " + x0);
+                System.out.println("Wynik " + typ + " to x0: " + (int) x0);
                 break;
             case 2:
-                System.out.println("Wynik " + typ + " to x1: " + x1 + " | x2: " + x2);
+                System.out.println("Wynik " + typ + " to x1: " + (int) x1 + " | x2: " + (int) x2);
                 break;
             case 3:
                 System.out.println("Delta nie ma rozwiazania!");
