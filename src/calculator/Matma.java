@@ -1,6 +1,6 @@
 package calculator;
 
-public class Delta {
+public class Matma {
 
     public static void delta(double a, double b, double c) {
 
@@ -20,5 +20,29 @@ public class Delta {
         } else {
             System.out.println("Delta nie ma rozwiązania");
         }
+    }
+
+    public static double dodawanie(double a, double b) {
+        return a + b;
+    }
+
+    public static double odejmowanie(double a, double b) {
+        return a - b;
+    }
+
+    public static double dzielenie(double a, double b) {
+        return a / b;
+    }
+
+    public static double mnozenie(double a, double b) {
+        return a * b;
+    }
+
+    public static double potegowanie(double a, double b) {
+        return Math.pow(a, b);
+    }
+
+    public static double pierwiastkowanie(double a) {
+        return Math.sqrt(a);
     }
 }
